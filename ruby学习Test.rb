@@ -18,3 +18,14 @@ a="adasfas"
 puts a.class
 puts a.split('').class
 puts a.split('').shuffle.join.class
+
+
+user = {}
+user["first_name"] = "Michael"
+user["last_name"] = "Hartl"
+user = { :name => "M", :email => "1@q.com", passport:"111"}
+puts user[:passport]
+puts :name
+puts :mmmm.inspect
+p :ddd
+p [1,2,3,4]
